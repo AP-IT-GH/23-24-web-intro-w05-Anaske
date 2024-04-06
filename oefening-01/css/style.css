@@ -16,3 +16,37 @@ a, a:hover {
 .koffiebruin{
   color: #ca8446;
 }
+.full-height {
+  min-height: 100%;
+}
+
+header, footer {
+
+  padding: 20px;
+}
+
+main, article, aside {
+  padding: 20px;
+  border: 1px ;
+  margin-bottom: 20px; }
+
+main {
+  display: flex;
+  flex-wrap: wrap; }
+
+aside {
+  flex: 1 1 50%; /* 50% breedte op grote schermen, volledige breedte op kleine schermen */ }
+
+@media (max-width: 768px) {
+  article, aside {
+    flex: 1 1 100%; /* volledige breedte op kleine schermen */
+  }}
+
+  .p-3 {
+    padding: spacer !important;
+  }
+  
+  figure {
+    height: auto; 
+    width: auto; 
+  }
